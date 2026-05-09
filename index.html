@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>健康診断までの体づくりプラン</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div class="hero__label">60代女性向け / おうちトレーニング</div>
+      <h1>健康診断までの<br>体づくりプラン</h1>
+      <p>血糖値・体重・体力を無理なく整える、食事と運動の習慣メニュー。</p>
+
+      <div class="stats">
+        <div>
+          <span>目標</span>
+          <strong>4〜5ヶ月</strong>
+        </div>
+        <div>
+          <span>運動</span>
+          <strong>週5日</strong>
+        </div>
+        <div>
+          <span>歩行</span>
+          <strong>食後10分〜</strong>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="card goal-card">
+        <div>
+          <p class="section-kicker">Main Goal</p>
+          <h2>痩せるより、動ける体へ</h2>
+          <p>急激な減量ではなく、筋肉を守りながら血糖値・体重・ウエスト・疲れやすさを改善していきます。</p>
+        </div>
+        <div class="ring">
+          <span>健診<br>準備</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <p class="section-kicker">Food Rule</p>
+          <h2>食事の基本ルール</h2>
+        </div>
+
+        <div class="rule-grid">
+          <article class="mini-card">
+            <span class="icon">🥚</span>
+            <h3>毎食タンパク質</h3>
+            <p>卵・豆腐・納豆・魚・鶏むね・ヨーグルトを毎食どれか入れる。</p>
+          </article>
+          <article class="mini-card">
+            <span class="icon">🍚</span>
+            <h3>糖質は抜きすぎない</h3>
+            <p>白米は小盛。雑穀米・さつまいも・オートミールも活用。</p>
+          </article>
+          <article class="mini-card">
+            <span class="icon">🥗</span>
+            <h3>食べる順番</h3>
+            <p>野菜・汁物 → タンパク質 → 炭水化物の順で血糖値対策。</p>
+          </article>
+          <article class="mini-card">
+            <span class="icon">🐟</span>
+            <h3>脂質の質を整える</h3>
+            <p>青魚・オリーブオイル・ナッツ少量。揚げ物や菓子パンは控えめ。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <p class="section-kicker">Daily Meals</p>
+          <h2>1日の食事モデル</h2>
+        </div>
+
+        <div class="meal-list">
+          <div class="meal">
+            <div class="meal__time">朝</div>
+            <div>
+              <h3>血糖値を安定させる朝食</h3>
+              <p>ゆで卵2個 / 無糖ヨーグルト / 味噌汁 / バナナ半分</p>
+            </div>
+          </div>
+          <div class="meal">
+            <div class="meal__time">昼</div>
+            <div>
+              <h3>主食＋タンパク質をしっかり</h3>
+              <p>雑穀ご飯小盛 / 焼き魚 or 鶏むね / サラダ / 豆腐</p>
+            </div>
+          </div>
+          <div class="meal">
+            <div class="meal__time">間</div>
+            <div>
+              <h3>小腹対策</h3>
+              <p>ナッツ少量 / 高カカオチョコ / チーズ / 無糖ヨーグルト</p>
+            </div>
+          </div>
+          <div class="meal">
+            <div class="meal__time">夜</div>
+            <div>
+              <h3>軽めでも栄養は落とさない</h3>
+              <p>豆腐鍋 / 野菜たっぷり / 魚 or 肉 / 炭水化物は少なめ</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <p class="section-kicker">Weekly Training</p>
+          <h2>週間トレーニング</h2>
+        </div>
+
+        <div class="week">
+          <button class="day active" data-day="mon">月</button>
+          <button class="day" data-day="tue">火</button>
+          <button class="day" data-day="wed">水</button>
+          <button class="day" data-day="thu">木</button>
+          <button class="day" data-day="fri">金</button>
+          <button class="day" data-day="sat">土</button>
+          <button class="day" data-day="sun">日</button>
+        </div>
+
+        <article class="training-card" id="trainingCard">
+          <p class="training-card__label">Monday Plan</p>
+          <h3>下半身＋ウォーキング</h3>
+          <ul>
+            <li>椅子スクワット 10回×3</li>
+            <li>椅子立ち座り 15回×3</li>
+            <li>ウォーキングマシン 20分</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <p class="section-kicker">Blood Sugar Care</p>
+          <h2>血糖値対策チェック</h2>
+        </div>
+
+        <div class="check-list">
+          <label><input type="checkbox"> 食後10〜20分歩く</label>
+          <label><input type="checkbox"> 朝食を抜かない</label>
+          <label><input type="checkbox"> 甘い飲み物を控える</label>
+          <label><input type="checkbox"> 麺・パン単品で済ませない</label>
+          <label><input type="checkbox"> 夜遅い食事を避ける</label>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <p class="section-kicker">Roadmap</p>
+          <h2>健康診断までの変化目安</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>1ヶ月</span>
+            <p>むくみ改善、疲れにくさの軽減、歩く習慣づくり。</p>
+          </div>
+          <div class="timeline-item">
+            <span>2〜3ヶ月</span>
+            <p>体重・ウエストに変化。血圧や中性脂肪の改善を狙う。</p>
+          </div>
+          <div class="timeline-item">
+            <span>4〜5ヶ月</span>
+            <p>HbA1c・空腹時血糖の改善、体力アップを目指す。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="warning">
+        <h2>注意すること</h2>
+        <p>極端な食事制限、糖質ゼロ、急な長時間運動は避けましょう。体調不良・痛み・めまいがある場合は中止し、必要に応じて医師に相談してください。</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
